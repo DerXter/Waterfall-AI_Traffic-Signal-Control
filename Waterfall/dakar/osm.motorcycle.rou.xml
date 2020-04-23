@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Mon Apr 20 11:09:51 2020 by Eclipse SUMO duarouter Version 1.1.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="/home/derxter/Sumo/2020-04-20-11-09-48/osm.net.xml"/>
+        <route-files value="/home/derxter/Sumo/2020-04-20-11-09-48/osm.motorcycle.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/home/derxter/Sumo/2020-04-20-11-09-48/osm.motorcycle.rou.xml"/>
+        <alternatives-output value="/home/derxter/Sumo/2020-04-20-11-09-48/osm.motorcycle.rou.alt.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="3600.0"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="moto_motorcycle" vClass="motorcycle"/>
+    <vehicle id="moto0" type="moto_motorcycle" depart="0.00" departLane="best" departSpeed="max">
+        <route edges="164026013 -164026013"/>
+    </vehicle>
+    <vehicle id="moto1" type="moto_motorcycle" depart="58.75" departLane="best" departSpeed="max">
+        <route edges="-27295090#1 -27295090#0 -197492564#1 -197492564#0 -27294246#1 -27294246#0"/>
+    </vehicle>
+    <vehicle id="moto2" type="moto_motorcycle" depart="117.51" departLane="best" departSpeed="max">
+        <route edges="191432325#0 191432325#2"/>
+    </vehicle>
+    <vehicle id="moto3" type="moto_motorcycle" depart="176.26" departLane="best" departSpeed="max">
+        <route edges="314115313#0 -164026013"/>
+    </vehicle>
+    <vehicle id="moto5" type="moto_motorcycle" depart="293.77" departLane="best" departSpeed="max">
+        <route edges="-197492564#2 -197492564#1 -197492564#0 362038389 172445005#1"/>
+    </vehicle>
+    <vehicle id="moto6" type="moto_motorcycle" depart="352.53" departLane="best" departSpeed="max">
+        <route edges="-191432325#2 191432327#0 191432327#1 211686324#0 211686324#1 197492564#0 -197492564#0"/>
+    </vehicle>
+    <vehicle id="moto7" type="moto_motorcycle" depart="411.28" departLane="best" departSpeed="max">
+        <route edges="164026013 314115313#1 108160070#1 362038389 172445005#1"/>
+    </vehicle>
+    <vehicle id="moto8" type="moto_motorcycle" depart="470.04" departLane="best" departSpeed="max">
+        <route edges="-197492564#2 -197492564#1 -197492564#0 362038389 172445005#1"/>
+    </vehicle>
+    <vehicle id="moto10" type="moto_motorcycle" depart="587.55" departLane="best" departSpeed="max">
+        <route edges="108160061 108160070#1 197492564#0 197492564#1 27295090#0 152741333 -191432325#0"/>
+    </vehicle>
+    <vehicle id="moto11" type="moto_motorcycle" depart="646.30" departLane="best" departSpeed="max">
+        <route edges="314115313#0 314115313#1 108160070#1 362038389 374385819 108160105"/>
+    </vehicle>
+    <vehicle id="moto13" type="moto_motorcycle" depart="763.81" departLane="best" departSpeed="max">
+        <route edges="27294246#0 27294246#1 197492564#0 197492564#1 27295090#0 152741333 191432325#2"/>
+    </vehicle>
+    <vehicle id="moto14" type="moto_motorcycle" depart="822.57" departLane="best" departSpeed="max">
+        <route edges="162751446 -191432327#1 -191432327#0 -152741333 27295090#1"/>
+    </vehicle>
+    <vehicle id="moto15" type="moto_motorcycle" depart="881.32" departLane="best" departSpeed="max">
+        <route edges="108160061 108160070#1 362038389 172445005#1"/>
+    </vehicle>
+    <vehicle id="moto16" type="moto_motorcycle" depart="940.08" departLane="best" departSpeed="max">
+        <route edges="27294246#0 27294246#1 197492564#0 197492564#1 27295090#0 152741333 191432325#2"/>
+    </vehicle>
+    <vehicle id="moto17" type="moto_motorcycle" depart="998.83" departLane="best" departSpeed="max">
+        <route edges="27294246#0 27294246#1 362038389 172445005#1"/>
+    </vehicle>
+    <vehicle id="moto19" type="moto_motorcycle" depart="1116.34" departLane="best" departSpeed="max">
+        <route edges="-27295090#1 -27295090#0 -197492564#1 -197492564#0 -27294246#1 -27294246#0"/>
+    </vehicle>
+    <vehicle id="moto20" type="moto_motorcycle" depart="1175.10" departLane="best" departSpeed="max">
+        <route edges="-191432325#2 191432327#0 191432327#1 211686324#0 211686324#1 -27294246#1 -27294246#0"/>
+    </vehicle>
+    <vehicle id="moto21" type="moto_motorcycle" depart="1233.85" departLane="best" departSpeed="max">
+        <route edges="-191432325#2 191432327#0 191432327#1 211686324#0 211686324#1 -27294246#1 -27294246#0"/>
+    </vehicle>
+    <vehicle id="moto22" type="moto_motorcycle" depart="1292.61" departLane="best" departSpeed="max">
+        <route edges="164026013 314115313#1 108160070#1 362038389 374385819 108160105"/>
+    </vehicle>
+    <vehicle id="moto23" type="moto_motorcycle" depart="1351.36" departLane="best" departSpeed="max">
+        <route edges="108160061 108160070#1 -27294246#1 -27294246#0"/>
+    </vehicle>
+    <vehicle id="moto24" type="moto_motorcycle" depart="1410.12" departLane="best" departSpeed="max">
+        <route edges="-27295090#1 27295090#1"/>
+    </vehicle>
+    <vehicle id="moto25" type="moto_motorcycle" depart="1468.87" departLane="best" departSpeed="max">
+        <route edges="164026013 314115313#1 108160070#1 197492564#0 197492564#1 27295090#0 152741333 191432325#2"/>
+    </vehicle>
+    <vehicle id="moto26" type="moto_motorcycle" depart="1527.63" departLane="best" departSpeed="max">
+        <route edges="-197492564#2 197492564#2"/>
+    </vehicle>
+    <vehicle id="moto27" type="moto_motorcycle" depart="1586.38" departLane="best" departSpeed="max">
+        <route edges="-197492564#2 -197492564#1 -197492564#0 362038389 374385819 108160105"/>
+    </vehicle>
+    <vehicle id="moto28" type="moto_motorcycle" depart="1645.14" departLane="best" departSpeed="max">
+        <route edges="314115313#0 314115313#1 108160070#1 197492564#0 197492564#1 27295090#0 152741333 191432325#2"/>
+    </vehicle>
+    <vehicle id="moto29" type="moto_motorcycle" depart="1703.89" departLane="best" departSpeed="max">
+        <route edges="164026013 314115313#1 108160070#1 197492564#0 197492564#1 27295090#0 152741333 191432325#2"/>
+    </vehicle>
+    <vehicle id="moto31" type="moto_motorcycle" depart="1821.40" departLane="best" departSpeed="max">
+        <route edges="-27295090#1 -27295090#0 -197492564#1 -197492564#0 -27294246#1 -27294246#0"/>
+    </vehicle>
+    <vehicle id="moto32" type="moto_motorcycle" depart="1880.16" departLane="best" departSpeed="max">
+        <route edges="-197492564#2 27295090#0 27295090#1"/>
+    </vehicle>
+    <vehicle id="moto33" type="moto_motorcycle" depart="1938.91" departLane="best" departSpeed="max">
+        <route edges="27294246#0 27294246#1 362038389 374385819 108160105"/>
+    </vehicle>
+    <vehicle id="moto34" type="moto_motorcycle" depart="1997.67" departLane="best" departSpeed="max">
+        <route edges="164026013 314115313#1 108160070#1 362038389 374385819 108160105"/>
+    </vehicle>
+    <vehicle id="moto35" type="moto_motorcycle" depart="2056.42" departLane="best" departSpeed="max">
+        <route edges="314115313#0 314115313#1 108160070#1 108697072"/>
+    </vehicle>
+    <vehicle id="moto36" type="moto_motorcycle" depart="2115.18" departLane="best" departSpeed="max">
+        <route edges="-27295090#1 -27295090#0 -197492564#1 -197492564#0 -27294246#1 -27294246#0"/>
+    </vehicle>
+    <vehicle id="moto37" type="moto_motorcycle" depart="2173.93" departLane="best" departSpeed="max">
+        <route edges="164026013 314115313#1 108160070#1 -27294246#1 -27294246#0"/>
+    </vehicle>
+    <vehicle id="moto38" type="moto_motorcycle" depart="2232.69" departLane="best" departSpeed="max">
+        <route edges="164026013 314115313#1 108160070#1 197492564#0 197492564#1 27295090#0"/>
+    </vehicle>
+    <vehicle id="moto39" type="moto_motorcycle" depart="2291.44" departLane="best" departSpeed="max">
+        <route edges="108160061 108160070#1 -27294246#1 -27294246#0"/>
+    </vehicle>
+    <vehicle id="moto40" type="moto_motorcycle" depart="2350.20" departLane="best">
+        <route edges="362038389 172445005#1"/>
+    </vehicle>
+    <vehicle id="moto42" type="moto_motorcycle" depart="2467.71" departLane="best">
+        <route edges="-191432327#0 191432325#2"/>
+    </vehicle>
+    <vehicle id="moto43" type="moto_motorcycle" depart="2526.46" departLane="best" departSpeed="max">
+        <route edges="27294246#0 27294246#1 108697072"/>
+    </vehicle>
+    <vehicle id="moto44" type="moto_motorcycle" depart="2585.22" departLane="best" departSpeed="max">
+        <route edges="-191432325#2 191432327#0 191432327#1 211686324#0 211686324#1 362038389 374385819 108160105"/>
+    </vehicle>
+    <vehicle id="moto45" type="moto_motorcycle" depart="2643.97" departLane="best">
+        <route edges="362038389 172445005#1"/>
+    </vehicle>
+    <vehicle id="moto46" type="moto_motorcycle" depart="2702.73" departLane="best" departSpeed="max">
+        <route edges="314115313#0 314115313#1 108160070#1 362038389 374385819 202186944"/>
+    </vehicle>
+    <vehicle id="moto47" type="moto_motorcycle" depart="2761.48" departLane="best" departSpeed="max">
+        <route edges="-191432325#2 -152741333 -27295090#0 197492564#2"/>
+    </vehicle>
+    <vehicle id="moto48" type="moto_motorcycle" depart="2820.24" departLane="best" departSpeed="max">
+        <route edges="191432325#0 191432327#0 191432327#1 211686324#0 211686324#1 362038389 172445005#1"/>
+    </vehicle>
+    <vehicle id="moto49" type="moto_motorcycle" depart="2878.99" departLane="best" departSpeed="max">
+        <route edges="-27295090#1 152741333 191432325#2"/>
+    </vehicle>
+    <vehicle id="moto50" type="moto_motorcycle" depart="2937.75" departLane="best">
+        <route edges="-191432327#1 191432327#1 211686324#0 211686324#1 108697072"/>
+    </vehicle>
+    <vehicle id="moto51" type="moto_motorcycle" depart="2996.50" departLane="best" departSpeed="max">
+        <route edges="162751446 -191432327#1 -191432327#0 -152741333 27295090#1"/>
+    </vehicle>
+    <vehicle id="moto52" type="moto_motorcycle" depart="3055.26" departLane="best" departSpeed="max">
+        <route edges="27294246#0 -27294246#0"/>
+    </vehicle>
+    <vehicle id="moto53" type="moto_motorcycle" depart="3114.01" departLane="best" departSpeed="max">
+        <route edges="162751446 -191432327#1 -191432327#0 -191432325#0"/>
+    </vehicle>
+    <vehicle id="moto54" type="moto_motorcycle" depart="3172.77" departLane="best" departSpeed="max">
+        <route edges="314115313#0 314115313#1 108160070#1 362038389 374385819 202186944"/>
+    </vehicle>
+    <vehicle id="moto55" type="moto_motorcycle" depart="3231.52" departLane="best" departSpeed="max">
+        <route edges="-27295090#1 152741333 191432325#2"/>
+    </vehicle>
+    <vehicle id="moto56" type="moto_motorcycle" depart="3290.28" departLane="best" departSpeed="max">
+        <route edges="164026013 314115313#1 108160070#1 197492564#0 197492564#1 27295090#0 152741333 -191432325#0"/>
+    </vehicle>
+    <vehicle id="moto57" type="moto_motorcycle" depart="3349.03" departLane="best" departSpeed="max">
+        <route edges="191432325#0 191432327#0 191432327#1 211686324#0 211686324#1 362038389 172445005#1"/>
+    </vehicle>
+    <vehicle id="moto58" type="moto_motorcycle" depart="3407.79" departLane="best" departSpeed="max">
+        <route edges="27294246#0 27294246#1 362038389 172445005#1"/>
+    </vehicle>
+    <vehicle id="moto59" type="moto_motorcycle" depart="3466.54" departLane="best">
+        <route edges="-152741333 -27295090#0 -197492564#1 -197492564#0 362038389 374385819 108160105"/>
+    </vehicle>
+    <vehicle id="moto60" type="moto_motorcycle" depart="3525.30" departLane="best" departSpeed="max">
+        <route edges="-191432325#2 -152741333 27295090#1"/>
+    </vehicle>
+    <vehicle id="moto61" type="moto_motorcycle" depart="3584.05" departLane="best" departSpeed="max">
+        <route edges="27294246#0 27294246#1 362038389 374385819 202186944"/>
+    </vehicle>
+</routes>
