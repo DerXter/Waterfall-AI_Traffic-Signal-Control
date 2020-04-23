@@ -1,3 +1,5 @@
+import sys
+sys.path.insert(0, "/usr/share/sumo/tools")
 import traci
 import numpy as np
 import random
