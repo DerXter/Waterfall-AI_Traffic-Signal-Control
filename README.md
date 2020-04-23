@@ -11,11 +11,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. Download Anaconda ([official site](https://www.anaconda.com/distribution/#download-section)) and install.
 2. Download SUMO ([official site](https://www.dlr.de/ts/en/desktopdefault.aspx/tabid-9883/16931_read-41000/)) and install.
-3. Follow [this](https://towardsdatascience.com/tensorflow-gpu-installation-made-easy-use-conda-instead-of-pip-52e5249374bc) short guide in order to install tensorflow-gpu correctly and problem-free. Basically the guide tells you to open Anaconda Prompt, or any terminal, and type the following commands:
+3. Install dependences with the following command:
 ```
-conda create --name tf_gpu
-activate tf_gpu
-conda install tensorflow-gpu
+pip install -r requirements.txt
 ```
 
 The following software versions were used: Python 3.7, SUMO traffic simulator 1.2.0, tensorflow 2.0  
@@ -27,6 +25,7 @@ Launch the following command to view a case of heavy traffic in the Fann area in
 ```
 sumo-gui dakar/osm.sumocfg
 ```
+This scenario was created using SUMO *OSM Web Wizard*.
 
 
 ## Running the algorithm
