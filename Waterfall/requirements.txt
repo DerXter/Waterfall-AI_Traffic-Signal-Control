@@ -172,7 +172,7 @@ tabulate==0.8.6
 tensor2tensor==1.14.1
 tensorboard==2.1.1
 tensorboardX==2.0
-tensorflow==2.1.0
+tensorflow==2.9.3
 tensorflow-addons==0.9.1
 tensorflow-cpu==1.15.0
 tensorflow-datasets==2.0.0
