@@ -27,7 +27,7 @@ colorclass==2.2.0
 coloredlogs==10.0
 colorhash==1.0.2
 ConfigArgParse==1.0
-cryptography==2.8
+cryptography==39.0.1
 cycler==0.10.0
 decorator==4.4.1
 dill==0.3.1.1
